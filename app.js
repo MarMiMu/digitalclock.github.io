@@ -26,7 +26,7 @@ console.log(hours);
 if (hours > 12){
 	document.body.style.backgroundImage = "url('backgrounds/night.png')";
 }
-if (hours < 12){
+if (hours <= 12){
 	document.body.style.backgroundImage = "url('backgrounds/day.png')";
 }
 
